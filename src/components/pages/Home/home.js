@@ -39,12 +39,12 @@ export default function Home() {
             <div className="meet-pooki white pt-2 pb-2">
                 <h1>Meet Pooki</h1>
             </div>
-            <div className="why-hello-kid">
+            <div className="why-hello-kid p-5">
                 <h1 className="mt-5 mb-5">Tại sao chọn Hello Kid?</h1>
                 <Container>
                     <Row>
                         <Col className="reason reason-1 m-1 pt-4 pb-5">
-                        <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
+                            <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
                                     Lorem ipsum dolor sit amet, consectet adipiscing
@@ -56,7 +56,7 @@ export default function Home() {
 
                         </Col>
                         <Col className="reason reason-2 m-1 pt-4 pb-5">
-                        <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
+                            <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
                                     Lorem ipsum dolor sit amet, consectet adipiscing
@@ -68,7 +68,7 @@ export default function Home() {
 
                         </Col>
                         <Col className="reason reason-3 m-1 pt-4 pb-5">
-                        <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
+                            <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
                                     Lorem ipsum dolor sit amet, consectet adipiscing
@@ -80,7 +80,7 @@ export default function Home() {
 
                         </Col>
                         <Col className="reason reason-4 m-1 pt-4 pb-5">
-                        <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
+                            <img src="https://color.adobe.com/media/theme/92471.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
                                     Lorem ipsum dolor sit amet, consectet adipiscing
@@ -94,6 +94,22 @@ export default function Home() {
                     </Row>
                 </Container>
 
+            </div>
+            <div className="user-feedback p-5">
+                <h1 className="green">Người học nói gì về Hello Kid?</h1>
+                <Container>
+                    <Row>
+                        <Col>
+                        </Col>
+                    </Row>
+                    <Row>
+                    </Row>
+                </Container>
+            </div>
+            <div className="register-now p-5 white">
+                <h1>Tristique et sit dapibus urna.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suspendisse in aenean ullamcorper porttitor fermentum. Eleifend proin in varius blandit est. Tincidunt orci proin neque.</p>
+                <Button className="register-now-button bold"><h2>Đăng ký ngay</h2></Button>
             </div>
         </div>
     )

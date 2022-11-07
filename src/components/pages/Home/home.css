@@ -2,7 +2,8 @@
     background-color: var(--e-dark-green)
 }
 
-.home-banner-button-holder button {
+.home-banner-button-holder button,
+.register-now button  {
     background: #EC6138;
     border: 7px solid #FFCB1F;
     border-radius: 15px;
@@ -39,5 +40,13 @@
 }
 
 .why-hello-kid .reason-4 {
+    background: var(--e-dark-yellow)
+}
+
+.register-now {
+    background: var(--e-dark-green)
+}
+
+.user-feedback {
     background: var(--e-dark-yellow)
 }
