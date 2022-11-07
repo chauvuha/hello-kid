@@ -11,8 +11,9 @@ export default function Header() {
                 <Container>
                     <Navbar.Brand href="/">Hello Kid</Navbar.Brand>
                     <Nav className="justify-content-end">
-                        <Nav.Link href="/faqs">Câu hỏi thường gặp</Nav.Link>
-                        <Nav.Link href="/products">Về sản phẩm</Nav.Link>
+                        <Nav.Link href="/product">Về sản phẩm</Nav.Link>
+                        <Nav.Link href="/aboutus">Về chúng tôi</Nav.Link>
+                        <Nav.Link href="/news">Tin tức</Nav.Link>
                         <Button className = "sign-in-button">Đăng nhập</Button>
                         <Button className="sign-up-button">Đăng ký</Button>
                     </Nav>

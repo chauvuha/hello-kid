@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Faqs(){
+export default function AboutUs(){
     return (
         <div>
             This is Faqs
@@ -8,4 +8,3 @@ export default function Faqs(){
     )
 }
 
-// export default Faqs

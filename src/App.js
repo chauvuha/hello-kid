@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/pages/Home/home';
-import Faqs from './components/pages/Faqs/Faqs';
+import AboutUs from './components/pages/AboutUs/AboutUs';
 import Header from './components/elements/Header/Header';
 import Footer from './components/elements/Footer/Footer';
 
@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/faqs" element={<Faqs />}></Route>
+          <Route path="/aboutus" element={<AboutUs />}></Route>
 
         </Routes>
         <Footer />
