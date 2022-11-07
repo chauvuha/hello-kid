@@ -1,9 +1,10 @@
 .home-banner {
-    background-color: var(--e-dark-green)
+    /* background-color: var(--e-dark-green); */
+    /* background-image: url('images/Rectangle7.png'); */
 }
 
 .home-banner-button-holder button,
-.register-now button  {
+.register-now button {
     background: #EC6138;
     border: 7px solid #FFCB1F;
     border-radius: 15px;
@@ -17,10 +18,31 @@
     background-color: #5C5C5C
 }
 
-.why-hello-kid .reason {
+.meet-pookie-box {
+    position: relative
+}
+
+.pooki img {
+    width: 180px;
+    position: absolute;
+    z-index: 100;
+    left: 21rem;
+    top: -6rem;
+}
+
+.why-hello-kid {
+    background-color: #FAEDE5;
+}
+
+.why-hello-kid .reason img {
+    width: 9rem;
+}
+
+/* .why-hello-kid .reason {
     border: 8px solid rgba(255, 255, 255, 0.5);
     border-radius: 30px;
 }
+
 
 .why-hello-kid .reason img {
     width: 9rem;
@@ -41,7 +63,7 @@
 
 .why-hello-kid .reason-4 {
     background: var(--e-dark-yellow)
-}
+} */
 
 .register-now {
     background: var(--e-dark-green)
@@ -50,3 +72,15 @@
 .user-feedback {
     background: var(--e-dark-yellow)
 }
+
+.why-hello-kid-title {
+    color: var(--e-dark-orange);
+    background: rgb(225, 205, 193, 0.6);
+    border-radius: 86px;
+}
+
+.why-hello-kid-title-text {
+    max-width: 70%;
+    margin: 0 auto
+}
+
