@@ -1,0 +1,43 @@
+.home-banner {
+    background-color: var(--e-dark-green)
+}
+
+.home-banner-button-holder button {
+    background: #EC6138;
+    border: 7px solid #FFCB1F;
+    border-radius: 15px;
+}
+
+.home-banner .home-banner-video img {
+    border-radius: 25px;
+}
+
+.homepage .meet-pooki {
+    background-color: #5C5C5C
+}
+
+.why-hello-kid .reason {
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+.why-hello-kid .reason img {
+    width: 9rem;
+    border-radius: 500px;
+}
+
+.why-hello-kid .reason-1 {
+    background: var(--e-dark-blue)
+}
+
+.why-hello-kid .reason-2 {
+    background: var(--e-dark-orange)
+}
+
+.why-hello-kid .reason-3 {
+    background: var(--e-dark-green)
+}
+
+.why-hello-kid .reason-4 {
+    background: var(--e-dark-yellow)
+}

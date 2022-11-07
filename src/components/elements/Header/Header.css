@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.header-container #navbar {
+    background: #2C80E2;
+}
+
+.header-container #navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.header-container .sign-in-button {
+    width: 180px;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    background: #2C80E2;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.header-container .sign-up-button {
+    width: 180px;
+    background: #FFCB1F;
+    border-radius: 31px;
+    margin-left: 10px;
+    padding: 10px;
+    color: black;
+}
