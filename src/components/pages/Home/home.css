@@ -1,7 +1,7 @@
 .home-banner-button-holder button,
 .register-now button {
-    background: #EC6138;
-    border: 7px solid #FFCB1F;
+    background: var(--e-dark-orange);
+    border: 7px solid var(--e-dark-yellow);
     border-radius: 15px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .why-hello-kid {
-    background-color: #FAEDE5;
+    background-color: var(--e-light-yellow)
 }
 
 .why-hello-kid .reason img {
@@ -71,7 +71,7 @@
 }
 
 .hello-kid-benefits {
-    background-color: #FAEDE5;
+    background-color: var(--e-light-yellow);
     position: relative;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .hello-kid-benefits-map {
-    background-color: #FAEDE5;
+    background-color: var(--e-light-yellow);
 }
 
 .hello-kid-benefits-map .hello-kid-benefits-map-background {
@@ -181,8 +181,9 @@
     background-color: var(--e-dark-green);
 }
 
+
 .hello-kid-package-price.package {
-    background-color: #FAEDE5;
+    background-color: var(--e-light-yellow);
     border-radius: 50px;
 }
 
@@ -219,7 +220,7 @@
 }
 
 .hello-kid-package-price.clock {
-    background: #FCEDE8;
+    background: var(--e-light-yellow);
     border: 10px solid var(--e-dark-orange);
     border-radius: 40px;
     width: 35%;
@@ -242,6 +243,10 @@
     flex-grow: 3;
     background-size: 100% 100%;;
     background-repeat: no-repeat;
+}
+
+.hello-kid-fb-text1-content {
+    gap: 2rem;
 }
 
 .user-feedback-content img.hello-kid-fb-video1 {

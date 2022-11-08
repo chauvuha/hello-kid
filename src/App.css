@@ -4,6 +4,13 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;600;700&display=swap'); */
 
+.fw-600 {
+  font-weight: 600
+}
+
+.fw-400 {
+  font-weight: 400
+}
 
 .yellow {
   color: var(--e-dark-yellow);
@@ -25,6 +32,11 @@
   color: var(--e-dark-orange)
 }
 
+.light-black {
+  color: var(--e-light-black)
+}
+
+
 .bold {
   font-weight: 900 !important;
 }
@@ -45,6 +57,10 @@
 
 .ta-left {
   text-align: left
+}
+
+.ta-right {
+  text-align: right
 }
 
 .mt-20 {
@@ -70,4 +86,7 @@ button:focus,
   --e-dark-blue: #2C80E2;
   --e-dark-green: #08A175;
   --e-dark-orange: #EC6138;
+  --e-light-yellow: #FAEDE5;
+  --e-light-black: rgba(0, 0, 0, 0.5);
+
 }
