@@ -38,32 +38,17 @@
     width: 9rem;
 }
 
-/* .why-hello-kid .reason {
-    border: 8px solid rgba(255, 255, 255, 0.5);
-    border-radius: 30px;
+
+.why-hello-kid .reason {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
 }
 
-
-.why-hello-kid .reason img {
-    width: 9rem;
-    border-radius: 500px;
+.why-hello-kid .reason>* {
+    flex: 1 1 0;
 }
-
-.why-hello-kid .reason-1 {
-    background: var(--e-dark-blue)
-}
-
-.why-hello-kid .reason-2 {
-    background: var(--e-dark-orange)
-}
-
-.why-hello-kid .reason-3 {
-    background: var(--e-dark-green)
-}
-
-.why-hello-kid .reason-4 {
-    background: var(--e-dark-yellow)
-} */
 
 .register-now {
     background: var(--e-dark-green)
@@ -84,3 +69,20 @@
     margin: 0 auto
 }
 
+.hello-kid-benefits {
+    background-color: #FAEDE5;
+}
+
+.hello-kid-benefits-caroursel-holder {
+    background-color: var(--e-dark-blue);
+    border-radius: 100px;
+}
+
+.hello-kid-benefits-caroursel-holder h1 {
+    background: var(--e-dark-orange);
+    border-radius: 99px;
+    color: white;
+    width: 60%;
+    margin: 0 auto
+
+}

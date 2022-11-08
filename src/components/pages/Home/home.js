@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
+import Owldemo1 from './Owlcarousel'
+
 
 
 export default function Home() {
@@ -135,7 +137,7 @@ export default function Home() {
                 <div className="pooki">
                     <img src='images/pooki.png' />
                 </div>
-                <div className="meet-pooki white pt-2 pb-2">
+                <div className="meet-pooki white pt-4 pb-4">
                     <Container>
                         <Row>
                             <h1>Meet Pooki</h1>
@@ -146,7 +148,7 @@ export default function Home() {
 
             <div className="why-hello-kid p-5">
                 <Container className="p-5">
-                    <Row className="p-5">
+                    <Row className="pt-5">
                         <div className="why-hello-kid-title">
                             <h1 className="why-hello-kid-title-text pt-2 pb-2" >Khó khăn của phụ huynh khi dạy con học Tiếng Anh?</h1>
                         </div>
@@ -154,7 +156,7 @@ export default function Home() {
                 </Container>
                 <Container>
                     <Row>
-                        <Col className="reason reason-1 m-1 pt-4 pb-5 d-flex flex-column justify-content-between align-items-center">
+                        <Col className="reason reason-1 m-1 pt-4 pb-5">
                             <img src="/images/a1.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
@@ -164,39 +166,44 @@ export default function Home() {
                             </div>
 
                         </Col>
-                        <Col className="reason reason-1 m-1 pt-4 pb-5 d-flex flex-column justify-content-between align-items-center">
+                        <Col className="reason reason-1 m-1 pt-4 pb-5">
                             <img src="/images/a2.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
-                                    Muốn con học giỏi Tiếng Anh nhưng quá nhiều khoá học
-                                    Loạn thông tin
+                                    Học 1-1 tốn kém.
+                                    Không chủ động về thời gian.
+                                    Con chán
                                 </h3>
                             </div>
 
                         </Col>
-                        <Col className="reason reason-1 m-1 pt-4 pb-5 d-flex flex-column justify-content-between align-items-center">
+                        <Col className="reason reason-1 m-1 pt-4 pb-5">
                             <img src="/images/a3.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
-                                    Muốn con học giỏi Tiếng Anh nhưng quá nhiều khoá học
-                                    Loạn thông tin
+                                    Phụ huynh không biết Tiếng Anh nên không theo sát kèm cặp hỗ trợ được con
                                 </h3>
                             </div>
 
                         </Col>
-                        <Col className="reason reason-1 m-1 pt-4 pb-5 d-flex flex-column justify-content-between align-items-center">
+                        <Col className="reason reason-1 m-1 pt-4 pb-5">
                             <img src="/images/a4.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
-                                    Muốn con học giỏi Tiếng Anh nhưng quá nhiều khoá học
-                                    Loạn thông tin
+                                    Không có khoá học nào 2 in 1 : Vừa theo được khung BGD, vừa luyện thi chứng chỉ quốc tế
                                 </h3>
                             </div>
-
                         </Col>
                     </Row>
                 </Container>
-
+            </div>
+            <div className="hello-kid-benefits">
+                <Container className="hello-kid-benefits-caroursel-holder">
+                    <h1>
+                        Việc gì khó, có Hello
+                    </h1>
+                    <Owldemo1 />
+                </Container>
             </div>
             <div className="user-feedback p-5">
                 <h1 className="green">Người học nói gì về Hello Kid?</h1>
