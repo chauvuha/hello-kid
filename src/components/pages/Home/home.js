@@ -12,10 +12,10 @@ import Owldemo1 from './Owlcarousel'
 export default function Home() {
     return (
         <div className="homepage">
-            <div className="home-banner" >
+            <div className="home-banner">
                 <Carousel>
                     <Carousel.Item style={{ backgroundImage: "url(/images/Rectangle7.png)" }} className="pt-5 pb-5">
-                        <Container>
+                        <Container className="p-5">
                             <Row>
                                 <Col>
                                     <div className="home-banner-header">
@@ -44,7 +44,7 @@ export default function Home() {
 
                     </Carousel.Item>
                     <Carousel.Item style={{ backgroundImage: "url(/images/Rectangle7.png)" }} className="pt-5 pb-5">
-                        <Container>
+                        <Container className="p-5">
                             <Row>
                                 <Col>
                                     <div className="home-banner-header">
@@ -73,7 +73,7 @@ export default function Home() {
 
                     </Carousel.Item>
                     <Carousel.Item style={{ backgroundImage: "url(/images/Rectangle7.png)" }} className="pt-5 pb-5">
-                        <Container>
+                        <Container className="p-5">
                             <Row>
                                 <Col>
                                     <div className="home-banner-header">
@@ -102,7 +102,7 @@ export default function Home() {
 
                     </Carousel.Item>
                     <Carousel.Item style={{ backgroundImage: "url(/images/Rectangle7.png)" }} className="pt-5 pb-5">
-                        <Container>
+                        <Container className="p-5">
                             <Row>
                                 <Col>
                                     <div className="home-banner-header">
@@ -197,28 +197,133 @@ export default function Home() {
                     </Row>
                 </Container>
             </div>
-            <div className="hello-kid-benefits">
-                <Container className="hello-kid-benefits-caroursel-holder">
+            <div className="hello-kid-benefits pb-5">
+                <Container className="hello-kid-benefits-caroursel-holder d-flex flex-column align-items-center">
                     <h1>
                         Việc gì khó, có Hello
                     </h1>
-                    <Owldemo1 />
+                    <Container className="p-5">
+                        <Owldemo1 />
+                    </Container>
+                </Container>
+                <div className="hello-kid-benefits-green-banner pt-5">
+                    <img src="/images/group14.png" />
+                </div>
+            </div>
+            <div className="hello-kid-benefits-map">
+                <img className="hello-kid-benefits-map-background" src="/images/group8.png" />
+                <Container className="hello-kid-benefits-map-components">
+                    <Row className="d-flex flex-row justify-content-center">
+                        <img className="hello-kid-benefits-map-board" src="/images/group17.png" />
+                        <img className="hello-kid-benefits-map-pooki" src="/images/group6.png" />
+                    </Row>
+                </Container>
+            </div>
+            <div className="hello-kid-benefits-pathway  p-5" style={{ backgroundImage: "url(/images/xanh.png)" }}>
+                <img className="hello-kid-benefit-pathway-img p-5" src="/images/Group26.png" />
+
+            </div>
+            <div className="hello-kid-levels p-5">
+                <Container>
+                    <Row>
+                        <Col>
+                            <img className="hello-kid-levels-star" src="/images/star1.png" />
+                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                            <p className="white">
+                                DÀNH CHO CÁC BẠN
+                                TỪ 6-8 TUỔI (PRE A1)
+                            </p>
+                        </Col>
+                        <Col>
+                            <img className="hello-kid-levels-star" src="/images/star1.png" />
+                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                            <p className="white">
+                                DÀNH CHO CÁC BẠN
+                                TỪ 6-8 TUỔI (PRE A1)
+                            </p>
+                        </Col>
+                        <Col>
+                            <img className="hello-kid-levels-star" src="/images/star1.png" />
+                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                            <p className="white">
+                                DÀNH CHO CÁC BẠN
+                                TỪ 6-8 TUỔI (PRE A1)
+                            </p>
+                        </Col>
+                        <Col>
+                            <img className="hello-kid-levels-star" src="/images/star1.png" />
+                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                            <p className="white">
+                                DÀNH CHO CÁC BẠN
+                                TỪ 6-8 TUỔI (PRE A1)
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            <div className="hello-kid-package-price p-5 d-flex flex-column align-items-center">
+                <h1 className="hello-kid-package-price title white">GÓI LUYỆN THI HẤP DẪN</h1>
+                <h4 className="hello-kid-package-price clock white p-2 mb-4">23 giờ    01 phút    02 giây</h4>
+                <Container>
+                    <Row>
+                        <Col className="hello-kid-package-price package package-1 pt-5 m-2">
+                            <h3>1 năm</h3>
+                            <h1 className="bold">490.000đ</h1>
+                            <h4><s>1.380.000 đ</s></h4>
+                            <ul className="ta-left">
+                                <li>Không giới hạn đề thi</li>
+                                <li>Tự động cập nhật tính năng và đề thi</li>
+                                <li>Miễn phí bộ tài liệu độc quyền</li>
+                            </ul>
+                            <Button className="button-package mt-4 mb-4"><h4>Đăng ký ngay</h4></Button>
+                        </Col>
+                        <Col className="hello-kid-package-price package package-active package-2 pt-5 m-2">
+                            <div className="hello-kid-package-price fav-banner bold d-flex flex-column align-items-center">
+                                <p>Được yêu thích nhất</p>
+                            </div>
+                            <h3>1 năm</h3>
+                            <h1 className="bold">490.000đ</h1>
+                            <h4><s>1.380.000 đ</s></h4>
+                            <ul className="ta-left">
+                                <li>Không giới hạn đề thi</li>
+                                <li>Tự động cập nhật tính năng và đề thi</li>
+                                <li>Miễn phí bộ tài liệu độc quyền</li>
+                            </ul>
+                            <Button className="button-package mt-4 mb-4"><h4>Đăng ký ngay</h4></Button>
+                        </Col>
+                        <Col className="hello-kid-package-price package package-3 pt-5 m-2">
+                            <h3>1 năm</h3>
+                            <h1 className="bold">490.000đ</h1>
+                            <h4><s>1.380.000 đ</s></h4>
+                            <ul className="ta-left">
+                                <li>Không giới hạn đề thi</li>
+                                <li>Tự động cập nhật tính năng và đề thi</li>
+                                <li>Miễn phí bộ tài liệu độc quyền</li>
+                            </ul>
+                            <Button className="button-package mt-4 mb-4"><h4>Đăng ký ngay</h4></Button>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
             <div className="user-feedback p-5">
                 <h1 className="green">Người học nói gì về Hello Kid?</h1>
-                <Container>
-                    <Row>
-                        <Col>
-                        </Col>
-                        <Col>
-                        </Col>
-                        <Col>
-                        </Col>
-                    </Row>
-                    <Row>
-                    </Row>
-                </Container>
+                <div className="user-feedback-content d-flex flex-row p-5">
+
+                    <img className="hello-kid-fb-photo1 ms-3" src="/images/Rectangle29.png" />
+                    <div className="hello-kid-fb-text1-container">
+                        <img className="hello-kid-fb-text1" src="/images/Union.png" />
+                        <div className="hello-kid-fb-text1-content d-flex flex-column justify-content-between">
+                            <p className="ps-5 pe-5 pt-3 ta-left">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, quisque eu placerat cras et cras convallis sed hac. “
+                            </p>
+                            <p className="author ps-5 pe-5 pt-3 ta-right">
+                                -Ms. Hannah
+                            </p>
+                        </div>
+
+                    </div>
+                    <img className="hello-kid-fb-video1 ms-2" src="/images/Rectangle28.png" />
+                </div>
             </div>
             <div className="register-now p-5 white">
                 <h1>Tristique et sit dapibus urna.</h1>

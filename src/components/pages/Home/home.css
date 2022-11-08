@@ -71,18 +71,153 @@
 
 .hello-kid-benefits {
     background-color: #FAEDE5;
+    position: relative;
 }
+
 
 .hello-kid-benefits-caroursel-holder {
     background-color: var(--e-dark-blue);
     border-radius: 100px;
+    margin-left: 100px;
 }
+
 
 .hello-kid-benefits-caroursel-holder h1 {
     background: var(--e-dark-orange);
     border-radius: 99px;
     color: white;
-    width: 60%;
-    margin: 0 auto
+    width: 40%;
+    position: absolute;
+    top: -28px;
+    padding: 0.5rem;
+}
 
+.hello-kid-benefits-green-banner img {
+    width: 70%;
+}
+
+.hello-kid-benefits-map {
+    background-color: #FAEDE5;
+}
+
+.hello-kid-benefits-map .hello-kid-benefits-map-background {
+    width: 100%
+}
+
+.hello-kid-benefits-map {
+    position: relative;
+}
+
+.hello-kid-benefits-map .hello-kid-benefits-map-components {
+    position: absolute;
+    top: -10px;
+}
+
+.hello-kid-benefits-map .hello-kid-benefits-map-board {
+    width: 40%;
+}
+
+.hello-kid-benefits-map .hello-kid-benefits-map-pooki {
+    width: 20%;
+}
+
+
+.hello-kid-benefits-pathway .hello-kid-benefit-pathway-img {
+    width: 100%;
+    z-index: 100 !important;
+}
+
+.hello-kid-levels {
+    background-color: var(--e-dark-orange);
+}
+
+.hello-kid-levels img {
+    width: 70%;
+}
+
+.hello-kid-levels button {
+    width: 90%;
+}
+
+.hello-kid-levels p {
+    width: 90%;
+}
+
+.hello-kid-package-price {
+    background-color: var(--e-dark-green);
+}
+
+.hello-kid-package-price.package {
+    background-color: #FAEDE5;
+    border-radius: 50px;
+}
+
+.hello-kid-package-price.package .button-package {
+    background: var(--e-dark-yellow);
+    border: 7px solid var(--e-dark-orange);
+    border-radius: 25px;
+    width: 86%;
+    color: black;
+}
+
+.hello-kid-package-price.package.package-active {
+    background: #EC6138;
+    border: 10px solid #FFFFFF;
+    border-radius: 50px;
+    color: white;
+    position: relative
+}
+
+.hello-kid-package-price.package.package-active .button-package {
+    background: #2C80E2;
+    border: 7px solid #030303;
+    border-radius: 25px;
+}
+
+.hello-kid-package-price.package.package-active .fav-banner p {
+    background: #FFCB1F;
+    border-radius: 20px;
+    color: black;
+    width: 80%;
+    position: absolute;
+    top: -20px;
+    padding: 3px;
+}
+
+.hello-kid-package-price.clock {
+    background: #FCEDE8;
+    border: 10px solid var(--e-dark-orange);
+    border-radius: 40px;
+    width: 35%;
+    color: var(--e-dark-orange)
+}
+
+.user-feedback .hello-kid-fb-photo1 {
+    width: 20%
+}
+
+.user-feedback .hello-kid-fb-text1 {
+    width: 30%;
+    /* background-image: url('/images/Union.png');
+    background-size: cover; */
+
+}
+
+.user-feedback .hello-kid-fb-text1-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-feedback .hello-kid-fb-video1 {
+    width: 50%
+}
+
+.hello-kid-fb-text1-container {
+    position: relative;
+}
+
+.hello-kid-fb-text1-container .hello-kid-fb-text1-content {
+    position: absolute;
+    top: 0.5rem;
+    height: 100%;
 }
