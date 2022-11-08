@@ -1,8 +1,3 @@
-.home-banner {
-    /* background-color: var(--e-dark-green); */
-    /* background-image: url('images/Rectangle7.png'); */
-}
-
 .home-banner-button-holder button,
 .register-now button {
     background: #EC6138;
@@ -21,6 +16,12 @@
 .meet-pookie-box {
     position: relative
 }
+
+.meet-pookie-box .arrow {
+    width: 50px;
+    margin-right: 10px;
+}
+
 
 .pooki img {
     width: 180px;
@@ -129,18 +130,51 @@
 
 .hello-kid-levels {
     background-color: var(--e-dark-orange);
+    height: 100%
+}
+
+.hello-kid-levels.level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
 }
 
 .hello-kid-levels img {
     width: 70%;
+    height: auto;
 }
 
 .hello-kid-levels button {
     width: 90%;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.hello-kid-levels .button-level-1 {
+    background: #1A7F89;
+}
+
+.hello-kid-levels .hello-kid-levels-star-text-box .level-text {
+    margin-right: 0 !important;
+}
+
+.hello-kid-levels .button-level-2 {
+    background: #6EB40D;
+}
+
+.hello-kid-levels .button-level-3 {
+    background: #01A374;
+}
+
+.hello-kid-levels .button-level-4 {
+    background: #2C80E2;
 }
 
 .hello-kid-levels p {
     width: 90%;
+    border-radius: 30px;
 }
 
 .hello-kid-package-price {
@@ -192,32 +226,26 @@
     color: var(--e-dark-orange)
 }
 
-.user-feedback .hello-kid-fb-photo1 {
-    width: 20%
-}
-
-.user-feedback .hello-kid-fb-text1 {
-    width: 30%;
-    /* background-image: url('/images/Union.png');
-    background-size: cover; */
-
-}
-
-.user-feedback .hello-kid-fb-text1-container img {
+.user-feedback-content {
+    display: flex;
     width: 100%;
-    height: 100%;
+    gap: 10px;
 }
 
-.user-feedback .hello-kid-fb-video1 {
-    width: 50%
+.user-feedback-content img.hello-kid-fb-photo1 {
+    width: 100%;
+    height: auto
 }
 
-.hello-kid-fb-text1-container {
-    position: relative;
+
+.user-feedback-content .hello-kid-fb-text1-container {
+    flex-grow: 3;
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
 }
 
-.hello-kid-fb-text1-container .hello-kid-fb-text1-content {
-    position: absolute;
-    top: 0.5rem;
-    height: 100%;
+.user-feedback-content img.hello-kid-fb-video1 {
+    width: 100%;
+    height: 100%
 }
+

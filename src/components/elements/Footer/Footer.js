@@ -3,6 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare, faTwitterSquare, faYoutubeSquare } from "@fortawesome/free-brands-svg-icons"
+
 
 export default function Footer() {
     return (
@@ -14,6 +17,9 @@ export default function Footer() {
                             Hello Kid
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nisi, viverra ridiculus at quis vulputate semper. </p>
+                        <FontAwesomeIcon icon={faFacebookSquare} className="footer-icon me-2 mt-2" size="2x" />
+                        <FontAwesomeIcon icon={faTwitterSquare} className="footer-icon me-2 mt-2" size="2x" />
+                        <FontAwesomeIcon icon={faYoutubeSquare} className="footer-icon me-2 mt-2" size="2x" />
                     </Col>
                     <Col>
                         <h2>

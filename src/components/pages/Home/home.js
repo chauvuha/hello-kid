@@ -5,7 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
-import Owldemo1 from './Owlcarousel'
+import CarouselBenefits from './CarouselBenefits';
+
 
 
 
@@ -140,12 +141,12 @@ export default function Home() {
                 <div className="meet-pooki white pt-4 pb-4">
                     <Container>
                         <Row>
-                            <h1>Meet Pooki</h1>
+                            <h1><img className="arrow" src='images/arrowvecto.png' />
+                                Meet Pooki</h1>
                         </Row>
                     </Container>
                 </div>
             </div>
-
             <div className="why-hello-kid p-5">
                 <Container className="p-5">
                     <Row className="pt-5">
@@ -160,8 +161,8 @@ export default function Home() {
                             <img src="/images/a1.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
-                                    Muốn con học giỏi Tiếng Anh nhưng quá nhiều khoá học
-                                    Loạn thông tin
+                                    Muốn con học giỏi Tiếng Anh nhưng quá nhiều khoá học.
+                                    <span className="orange">Loạn thông tin</span>
                                 </h3>
                             </div>
 
@@ -172,7 +173,7 @@ export default function Home() {
                                 <h3>
                                     Học 1-1 tốn kém.
                                     Không chủ động về thời gian.
-                                    Con chán
+                                    <span className="green"> Con chán</span>
                                 </h3>
                             </div>
 
@@ -181,16 +182,16 @@ export default function Home() {
                             <img src="/images/a3.png" alt="BigCo Inc. logo" />
                             <div className="reason-content">
                                 <h3>
-                                    Phụ huynh không biết Tiếng Anh nên không theo sát kèm cặp hỗ trợ được con
+                                    Phụ huynh <span className="blue">không biết Tiếng Anh</span> nên không theo sát kèm cặp hỗ trợ được con
                                 </h3>
                             </div>
 
                         </Col>
                         <Col className="reason reason-1 m-1 pt-4 pb-5">
-                            <img src="/images/a4.png" alt="BigCo Inc. logo" />
+                            <img src="/images/a4.png" alt="2-in-1" />
                             <div className="reason-content">
                                 <h3>
-                                    Không có khoá học nào 2 in 1 : Vừa theo được khung BGD, vừa luyện thi chứng chỉ quốc tế
+                                    Không có khoá học nào <span className="orange">2 in 1</span>: Vừa theo được khung BGD, vừa luyện thi chứng chỉ quốc tế
                                 </h3>
                             </div>
                         </Col>
@@ -203,7 +204,7 @@ export default function Home() {
                         Việc gì khó, có Hello
                     </h1>
                     <Container className="p-5">
-                        <Owldemo1 />
+                        <CarouselBenefits />
                     </Container>
                 </Container>
                 <div className="hello-kid-benefits-green-banner pt-5">
@@ -227,36 +228,52 @@ export default function Home() {
                 <Container>
                     <Row>
                         <Col>
-                            <img className="hello-kid-levels-star" src="/images/star1.png" />
-                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
-                            <p className="white">
-                                DÀNH CHO CÁC BẠN
-                                TỪ 6-8 TUỔI (PRE A1)
-                            </p>
+                            <div className="hello-kid-levels level d-flex flex-column">
+                                <img className="hello-kid-levels-star" src="/images/star1.png" />
+                                <div className="hello-kid-levels-star-text-box">
+                                    <Button className="button-level button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                                    <p className="level-text white">
+                                        DÀNH CHO CÁC BẠN
+                                        TỪ 6-8 TUỔI (PRE A1)
+                                    </p>
+                                </div>
+                            </div>
                         </Col>
                         <Col>
-                            <img className="hello-kid-levels-star" src="/images/star1.png" />
-                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
-                            <p className="white">
-                                DÀNH CHO CÁC BẠN
-                                TỪ 6-8 TUỔI (PRE A1)
-                            </p>
+                            <div className="hello-kid-levels level d-flex flex-column">
+                                <img className="hello-kid-levels-star" src="/images/star2.png" />
+                                <div className="hello-kid-levels-star-text-box">
+                                    <Button className="button-level button-level-2 mt-4 mb-4"><h2>MOVER</h2></Button>
+                                    <p className="level-text white">
+                                        DÀNH CHO CÁC BẠN
+                                        TỪ 6-8 TUỔI (PRE A1)
+                                    </p>
+                                </div>
+                            </div>
                         </Col>
                         <Col>
-                            <img className="hello-kid-levels-star" src="/images/star1.png" />
-                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
-                            <p className="white">
-                                DÀNH CHO CÁC BẠN
-                                TỪ 6-8 TUỔI (PRE A1)
-                            </p>
+                            <div className="hello-kid-levels level d-flex flex-column">
+                                <img className="hello-kid-levels-star" src="/images/star3.png" />
+                                <div className="hello-kid-levels-star-text-box">
+                                    <Button className="button-level button-level-3 mt-4 mb-4"><h2>FLYER</h2></Button>
+                                    <p className="level-text white">
+                                        DÀNH CHO CÁC BẠN
+                                        TỪ 6-8 TUỔI (PRE A1)
+                                    </p>
+                                </div>
+                            </div>
                         </Col>
                         <Col>
-                            <img className="hello-kid-levels-star" src="/images/star1.png" />
-                            <Button className="button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
-                            <p className="white">
-                                DÀNH CHO CÁC BẠN
-                                TỪ 6-8 TUỔI (PRE A1)
-                            </p>
+                            <div className="hello-kid-levels level d-flex flex-column">
+                                <img className="hello-kid-levels-star" src="/images/star4.png" />
+                                <div className="hello-kid-levels-star-text-box">
+                                    <Button className="button-level button-level-4 mt-4 mb-4"><h2>TOEFL Primary</h2></Button>
+                                    <p className="level-text white">
+                                        DÀNH CHO CÁC BẠN
+                                        TỪ 6-8 TUỔI (PRE A1)
+                                    </p>
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -308,10 +325,10 @@ export default function Home() {
             <div className="user-feedback p-5">
                 <h1 className="green">Người học nói gì về Hello Kid?</h1>
                 <div className="user-feedback-content d-flex flex-row p-5">
-
-                    <img className="hello-kid-fb-photo1 ms-3" src="/images/Rectangle29.png" />
-                    <div className="hello-kid-fb-text1-container">
-                        <img className="hello-kid-fb-text1" src="/images/Union.png" />
+                    <div className="hello-kid-fb-photo1">
+                        <img className="hello-kid-fb-photo1" src="/images/Rectangle29.png" />
+                    </div>
+                    <div className="hello-kid-fb-text1-container" style={{ backgroundImage: "url(/images/Union.png)" }}>
                         <div className="hello-kid-fb-text1-content d-flex flex-column justify-content-between">
                             <p className="ps-5 pe-5 pt-3 ta-left">
                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, quisque eu placerat cras et cras convallis sed hac. “
@@ -320,15 +337,53 @@ export default function Home() {
                                 -Ms. Hannah
                             </p>
                         </div>
-
                     </div>
-                    <img className="hello-kid-fb-video1 ms-2" src="/images/Rectangle28.png" />
+                    <div className="hello-kid-fb-video1">
+                        <img className="hello-kid-fb-video1 ms-2" src="/images/Rectangle28.png" />
+                    </div>
                 </div>
-            </div>
-            <div className="register-now p-5 white">
-                <h1>Tristique et sit dapibus urna.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suspendisse in aenean ullamcorper porttitor fermentum. Eleifend proin in varius blandit est. Tincidunt orci proin neque.</p>
-                <Button className="register-now-button bold"><h2>Đăng ký ngay</h2></Button>
+                <div className="user-feedback-content user-feedback-content-row2 d-flex flex-row ps-5 pe-5">
+                    <div className="hello-kid-fb-photo1">
+                        <img className="hello-kid-fb-photo1" src="/images/Rectangle29.png" />
+                    </div>
+                    <div className="hello-kid-fb-text1-container" style={{ backgroundImage: "url(/images/Union.png)" }}>
+                        <div className="hello-kid-fb-text1-content d-flex flex-column justify-content-between">
+                            <p className="ps-5 pe-3 pt-3 ta-left">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+                            </p>
+                            <p className="author ps-5 pe-5 pt-3 ta-right">
+                                -Ms. Hannah
+                            </p>
+                        </div>
+                    </div>
+                    <div className="hello-kid-fb-photo1">
+                        <img className="hello-kid-fb-photo1" src="/images/Rectangle29.png" />
+                    </div>
+                    <div className="hello-kid-fb-text1-container" style={{ backgroundImage: "url(/images/Union.png)" }}>
+                        <div className="hello-kid-fb-text1-content d-flex flex-column justify-content-between">
+                            <p className="ps-5 pe-3 pt-3 ta-left">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+                            </p>
+                            <p className="author ps-5 pe-5 pt-3 ta-right">
+                                -Ms. Hannah
+                            </p>
+                        </div>
+                    </div>
+                    <div className="hello-kid-fb-photo1">
+                        <img className="hello-kid-fb-photo1" src="/images/Rectangle29.png" />
+                    </div>
+                    <div className="hello-kid-fb-text1-container" style={{ backgroundImage: "url(/images/Union.png)" }}>
+                        <div className="hello-kid-fb-text1-content d-flex flex-column justify-content-between">
+                            <p className="ps-5 pe-3 pt-3 ta-left">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+                            </p>
+                            <p className="author ps-5 pe-5 pt-3 ta-right">
+                                -Ms. Hannah
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     )

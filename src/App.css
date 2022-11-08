@@ -21,6 +21,10 @@
   color: var(--e-dark-blue);
 }
 
+.orange {
+  color: var(--e-dark-orange)
+}
+
 .bold {
   font-weight: 900 !important;
 }

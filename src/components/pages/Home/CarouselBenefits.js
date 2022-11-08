@@ -1,15 +1,14 @@
-// import React,{Component} from 'react';  
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import './owl.css';
+import './CarouselBenefits.css';
 
 const options = {
-    items:2,
-    className:"owl-theme",
+    items: 2,
+    className: "owl-theme",
     loop: true,
     nav: true,
-    margin:8,
+    margin: 8,
     responsive: {
         0: {
             items: 3,
@@ -30,7 +29,7 @@ const options = {
     },
 };
 
-export default function Owldemo1() {
+export default function CarouselBenefits() {
     return (
         <div className="hello-kid-benefits-owl-carousel">
             <div class='container-fluid' >
@@ -42,7 +41,7 @@ export default function Owldemo1() {
                 >
                     <div >
                         <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
+                        <h2 className="bold">
                             Đồ hoạ sinh động, thu hút
                         </h2>
                         <p>
@@ -51,7 +50,23 @@ export default function Owldemo1() {
                     </div>
                     <div >
                         <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
+                        <h2 className="bold">
+                            Báo cáo lộ trình đến Phụ huynh sát sao                        </h2>
+                        <p>
+                            Nắm
+                            được con học bao nhiêu giờ, báo cáo kết
+                            quả luyện tập                        </p>
+                    </div>
+                    <div >
+                        <img className="img" src={'assets/img/img1.jpg'} />
+                        <h2 className="bold">
+                            Cá nhân hoá lộ trình người học                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.                         </p>
+                    </div>
+                    <div >
+                        <img className="img" src={'assets/img/img1.jpg'} />
+                        <h2 className="bold">
                             Đồ hoạ sinh động, thu hút
                         </h2>
                         <p>
@@ -60,39 +75,19 @@ export default function Owldemo1() {
                     </div>
                     <div >
                         <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
-                            Đồ hoạ sinh động, thu hút
-                        </h2>
+                        <h2 className="bold">
+                            Báo cáo lộ trình đến Phụ huynh sát sao                        </h2>
                         <p>
-                            Học + chơi trên các đảo giúp bé hứng thú
-                        </p>
+                            Nắm
+                            được con học bao nhiêu giờ, báo cáo kết
+                            quả luyện tập                        </p>
                     </div>
                     <div >
                         <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
-                            Đồ hoạ sinh động, thu hút
-                        </h2>
+                        <h2 className="bold">
+                            Cá nhân hoá lộ trình người học                        </h2>
                         <p>
-                            Học + chơi trên các đảo giúp bé hứng thú
-                        </p>
-                    </div>
-                    <div >
-                        <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
-                            Đồ hoạ sinh động, thu hút
-                        </h2>
-                        <p>
-                            Học + chơi trên các đảo giúp bé hứng thú
-                        </p>
-                    </div>
-                    <div >
-                        <img className="img" src={'assets/img/img1.jpg'} />
-                        <h2>
-                            Đồ hoạ sinh động, thu hút
-                        </h2>
-                        <p>
-                            Học + chơi trên các đảo giúp bé hứng thú
-                        </p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.                         </p>
                     </div>
                 </OwlCarousel>
             </div>
