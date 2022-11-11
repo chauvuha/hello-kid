@@ -15,6 +15,7 @@ export default function Header() {
                     <Navbar.Collapse className="justify-content-end">
                         <Nav>
                             <Nav.Link href="/product">Về sản phẩm</Nav.Link>
+                            <Nav.Link href="/faqs">Câu hỏi thường gặp</Nav.Link>
                             <Nav.Link href="/aboutus">Về chúng tôi</Nav.Link>
                             <Nav.Link href="/news">Tin tức</Nav.Link>
                             <Button className="sign-in-button">Đăng nhập</Button>

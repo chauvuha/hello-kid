@@ -30,7 +30,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                     <div className="home-banner-button-holder">
-                                        <Button className="home-banner-button bold"><h2>Đăng ký ngay</h2></Button>
+                                        <Button className="home-banner-button"><h2 className="fw-600">Đăng ký ngay</h2></Button>
                                     </div>
                                 </Col>
                                 <Col>
@@ -59,7 +59,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                     <div className="home-banner-button-holder">
-                                        <Button className="home-banner-button fw-600"><h2>Đăng ký ngay</h2></Button>
+                                        <Button className="home-banner-button"><h2 className="fw-600">Đăng ký ngay</h2></Button>
                                     </div>
                                 </Col>
                                 <Col>
@@ -88,7 +88,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                     <div className="home-banner-button-holder">
-                                        <Button className="home-banner-button fw-600"><h2>Đăng ký ngay</h2></Button>
+                                        <Button className="home-banner-button"><h2 className="fw-600">Đăng ký ngay</h2></Button>
                                     </div>
                                 </Col>
                                 <Col>
@@ -107,7 +107,7 @@ export default function Home() {
                             <Row>
                                 <Col>
                                     <div className="home-banner-header">
-                                        <h1 className="yellow">
+                                        <h1 className="yellow fw-600">
                                             Ứng dung học Tiếng Anh cho bé từ 6 - 11 tuổi
                                         </h1>
                                     </div>
@@ -117,7 +117,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                     <div className="home-banner-button-holder">
-                                        <Button className="home-banner-button fw-600"><h2>Đăng ký ngay</h2></Button>
+                                        <Button className="home-banner-button"><h2 className="fw-600">Đăng ký ngay</h2></Button>
                                     </div>
                                 </Col>
                                 <Col>
@@ -280,9 +280,9 @@ export default function Home() {
             </div>
             <div className="hello-kid-package-price p-5 d-flex flex-column align-items-center">
                 <h1 className="hello-kid-package-price title white fw-600">GÓI LUYỆN THI HẤP DẪN</h1>
-                <h4 className="hello-kid-package-price clock white p-2 mb-4 fw-600">                             
-                <img src="/images/Group36.png" className="me-3" alt="group36" />
-                23 giờ    01 phút    02 giây</h4>
+                <h4 className="hello-kid-package-price clock white p-2 mb-4 fw-600">
+                    <img src="/images/Group36.png" className="me-3" alt="group36" />
+                    23 giờ    01 phút    02 giây</h4>
                 <Container>
                     <Row>
                         <Col className="hello-kid-package-price package package-1 pt-5 m-2">
@@ -354,7 +354,7 @@ export default function Home() {
                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
                             </p>
                             <p className="author ps-5 pe-5 pt-3 ta-right light-black">
-                            Jackson - 7 yo
+                                Jackson - 7 yo
                             </p>
                         </div>
                     </div>
@@ -367,7 +367,7 @@ export default function Home() {
                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
                             </p>
                             <p className="author ps-5 pe-5 pt-3 ta-right light-black">
-                            Karen - 6 yo
+                                Karen - 6 yo
                             </p>
                         </div>
                     </div>
@@ -380,7 +380,7 @@ export default function Home() {
                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
                             </p>
                             <p className="author ps-5 pe-5 pt-3 ta-right light-black">
-                            Kevin - 8 yo
+                                Kevin - 8 yo
                             </p>
                         </div>
                     </div>

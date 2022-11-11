@@ -88,7 +88,18 @@ button:focus,
 button h2,
 button h4 {
   cursor:pointer;
+}
 
+.btn {
+  text-transform: none !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important
+}
+
+.navbar-nav .btn {
+  font-size: 16px;
 }
 
 :root {
