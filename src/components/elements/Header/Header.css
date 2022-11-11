@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+#navbar .navbar-logo {
+    width: 2rem;
+}
+
 .header-container #navbar {
     background: #2C80E2;
 }

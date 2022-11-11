@@ -13,6 +13,7 @@ export default function Footer() {
                 <Row className="footer-container-row">
                     <Col className="footer-container-row-col footer-col footer-col-1">
                         <h2 className="fw-600">
+                        <img className="footer-logo me-2" src="/images/Rectangle40.png" alt="logo" />
                             Hello Kid
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nisi, viverra ridiculus at quis vulputate semper. </p>
@@ -21,6 +22,7 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faYoutubeSquare} className="footer-icon me-2 mt-2" size="2x" />
                     </Col>
                     <Col>
+
                         <h2 className="fw-600">
                             Về Hello IELTS
                         </h2>

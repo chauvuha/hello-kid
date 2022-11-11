@@ -1,8 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;600;700&display=swap'); */
+
+* {
+  font-family: Calibri, sans-serif
+}
+
 .App {
   text-align: center;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;600;700&display=swap'); */
 
 .fw-600 {
   font-weight: 600
@@ -79,6 +83,12 @@ button:focus,
 .accordion-button:focus {
   outline: none;
   box-shadow: none !important;
+}
+
+button h2,
+button h4 {
+  cursor:pointer;
+
 }
 
 :root {

@@ -1,3 +1,7 @@
 .footer {
     background-color: var(--e-dark-orange)
 }
+
+.footer .footer-logo {
+    width: 2rem;
+}

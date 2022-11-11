@@ -231,7 +231,7 @@ export default function Home() {
                             <div className="hello-kid-levels level d-flex flex-column">
                                 <img className="hello-kid-levels-star" src="/images/star1.png" alt="star1" />
                                 <div className="hello-kid-levels-star-text-box">
-                                    <Button className="button-level button-level-1 mt-4 mb-4"><h2>STARTER</h2></Button>
+                                    <Button className="button-level button-level-1 mt-4 mb-4"><h2 className="fw-600">STARTER</h2></Button>
                                     <p className="level-text white">
                                         DÀNH CHO CÁC BẠN
                                         TỪ 6-8 TUỔI (PRE A1)
@@ -243,7 +243,7 @@ export default function Home() {
                             <div className="hello-kid-levels level d-flex flex-column">
                                 <img className="hello-kid-levels-star" src="/images/star2.png" alt="star2" />
                                 <div className="hello-kid-levels-star-text-box">
-                                    <Button className="button-level button-level-2 mt-4 mb-4"><h2>MOVER</h2></Button>
+                                    <Button className="button-level button-level-2 mt-4 mb-4"><h2 className="fw-600">MOVER</h2></Button>
                                     <p className="level-text white">
                                         DÀNH CHO CÁC BẠN
                                         TỪ 6-8 TUỔI (PRE A1)
@@ -255,7 +255,7 @@ export default function Home() {
                             <div className="hello-kid-levels level d-flex flex-column">
                                 <img className="hello-kid-levels-star" src="/images/star3.png" alt="star3" />
                                 <div className="hello-kid-levels-star-text-box">
-                                    <Button className="button-level button-level-3 mt-4 mb-4"><h2>FLYER</h2></Button>
+                                    <Button className="button-level button-level-3 mt-4 mb-4"><h2 className="fw-600">FLYER</h2></Button>
                                     <p className="level-text white">
                                         DÀNH CHO CÁC BẠN
                                         TỪ 6-8 TUỔI (PRE A1)
@@ -267,7 +267,7 @@ export default function Home() {
                             <div className="hello-kid-levels level d-flex flex-column">
                                 <img className="hello-kid-levels-star" src="/images/star4.png" alt="star4" />
                                 <div className="hello-kid-levels-star-text-box">
-                                    <Button className="button-level button-level-4 mt-4 mb-4"><h2>TOEFL Primary</h2></Button>
+                                    <Button className="button-level button-level-4 mt-4 mb-4"><h2 className="fw-600">TOEFL Primary</h2></Button>
                                     <p className="level-text white">
                                         DÀNH CHO CÁC BẠN
                                         TỪ 6-8 TUỔI (PRE A1)

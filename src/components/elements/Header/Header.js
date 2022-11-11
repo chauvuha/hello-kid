@@ -9,6 +9,7 @@ export default function Header() {
         <div className="header-container">
             <Navbar id="navbar" variant="dark" expand="lg">
                 <Container>
+                    <img className="navbar-logo me-2" src="/images/Rectangle40.png" alt="logo" />
                     <Navbar.Brand href="/">Hello Kid</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end">
