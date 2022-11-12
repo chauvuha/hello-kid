@@ -226,6 +226,7 @@ export default function Home() {
             </div>
             <div className="hello-kid-levels p-5">
                 <Container>
+                    <h2 className="hello-kid-levels-title white bold pb-5">LỘ TRÌNH CHUẨN THEO KHUNG BỘ GIÁO DỤC</h2>
                     <Row>
                         <Col>
                             <div className="hello-kid-levels level d-flex flex-column">
