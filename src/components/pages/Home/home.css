@@ -142,8 +142,7 @@
 }
 
 .hello-kid-levels img {
-    width: 70%;
-    height: auto;
+    height: 10rem;
 }
 
 .hello-kid-levels button {
@@ -170,6 +169,11 @@
 
 .hello-kid-levels .button-level-4 {
     background: #2C80E2;
+    padding-top: 20px;
+}
+
+.hello-kid-levels .button-level-4 h2 {
+    font-size: 1.5rem;
 }
 
 .hello-kid-levels p {

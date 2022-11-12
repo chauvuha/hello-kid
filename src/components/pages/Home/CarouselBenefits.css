@@ -1,15 +1,56 @@
-.hello-kid-benefits-owl-carousel  .title  
-{  
-        margin-bottom: 20px;  
-        padding:20px  
-} 
+.hello-kid-benefits-owl-carousel .title {
+        margin-bottom: 20px;
+        padding: 20px
+}
 
-.hello-kid-benefits-owl-carousel  .img  
-{  
+.hello-kid-benefits-owl-carousel .img {
         height: 100%;
-        width: 100%
-}  
+        width: 100%;
+}
 
 .hello-kid-benefits-owl-carousel {
-    color: white
+        color: white
+}
+
+.hello-kid-benefits-owl-carousel button.owl-prev span,
+.hello-kid-benefits-owl-carousel button.owl-next span {
+        display: none !important
+}
+
+
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-prev,
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-next {
+        background-image: url('./Polygon3.png') !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+        height: 8.5rem;
+        width: 3rem;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        /* display: block !important; */
+        border: 0px solid black;
+}
+
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-prev {
+        background-image: url('./Polygon2.png')  !important;
+        transform: translateX(-150%);
+}
+
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-next {
+        transform: translateX(150%); 
+}
+
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-next:hover,
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-prev:hover {
+        background-color: transparent
+}
+
+.hello-kid-benefits-owl-carousel .owl-carousel  .owl-prev {
+        left: -20px;
+}
+
+.hello-kid-benefits-owl-carousel .owl-carousel .owl-next {
+        right: -20px;
 }
